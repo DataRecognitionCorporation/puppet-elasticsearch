@@ -1,1 +1,6 @@
 /CHANGELOG.md merge=union
+
+# template files will always have '\n' line endings due to a replacement value within the module
+*.sh text eol=lf
+*.erb text eol=lf
+*.epp text eol=lf
